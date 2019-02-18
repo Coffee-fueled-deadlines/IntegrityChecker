@@ -1,10 +1,10 @@
-###################################################################
-#  Author : Coffee-Fueled-Deadlines                               #
-#  Purpose: To record and validate the integrity of a USB drive   #
-#  Contact: cookm0803@gmail.com                                   #
-###################################################################
 
-How to Use:
+##  Author : Coffee-Fueled-Deadlines                               
+##  Purpose: To record and validate the integrity of a USB drive   
+##  Contact: cookm0803@gmail.com                                   
+
+
+###How to Use:
     1. Place the files you want inside of your USB drive.
 
     2. Place "USB-Integrity.py" inside of the root directory
@@ -23,11 +23,11 @@ How to Use:
        may place these files back into the root directory and re-run
        "USB-Integrity.py" to see if any files have been changed.
        
-###################
-#  Special Notes  #
-###################
 
-# Python not in path
+##  Special Notes 
+
+
+### Python not in path
 In the case that you do not have python set up in path, you may have to
 run this script via Command line similar to as follows:
 
@@ -37,7 +37,7 @@ run this script via Command line similar to as follows:
 /path/to/directory/ being the path to your USB drive or any directory
 that you wish to check the integrity of.
 
-# Pyinstaller and .EXE
+### Pyinstaller and .EXE
 In addition, if you wish to use this on a machine that doesn't have python
 installed on it, you should consider using pyinstaller and the following
 command:
