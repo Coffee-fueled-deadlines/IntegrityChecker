@@ -21,12 +21,13 @@ How to Use:
     5. Alterately, you may remove "USB-Integrity.py" and "hashes.json"
        from your USB Drive after running the file.  At a later time, you
        may place these files back into the root directory and re-run
-       "USB-Integrity.exe" to see if any files have been changed.
+       "USB-Integrity.py" to see if any files have been changed.
        
 ###################
 #  Special Notes  #
 ###################
 
+# Python not in path
 In the case that you do not have python set up in path, you may have to
 run this script via Command line similar to as follows:
 
@@ -35,3 +36,14 @@ run this script via Command line similar to as follows:
 
 /path/to/directory/ being the path to your USB drive or any directory
 that you wish to check the integrity of.
+
+# Pyinstaller and .EXE
+In addition, if you wish to use this on a machine that doesn't have python
+installed on it, you should consider using pyinstaller and the following
+command:
+
+    cd /path/to/directory/
+    pyinstaller --onefile USB-Integrity.py
+
+This will create a one-file executable with all required dependencies build
+into it.
