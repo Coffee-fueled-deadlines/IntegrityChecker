@@ -4,7 +4,7 @@
 ##  Contact: cookm0803@gmail.com                                   
 
 
-###How to Use:
+### How to Use:
     1. Place the files you want inside of your USB drive.
 
     2. Place "USB-Integrity.py" inside of the root directory
